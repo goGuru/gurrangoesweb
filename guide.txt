@@ -1,0 +1,11 @@
+Hämta filer från remoterepot
+-git pull
+
+Lägga till filer i ditt paket innan commit
+-git add <filnamn>
+
+Commita
+-git commit -m "Hej du gamle räv"
+
+Pusha till remoterepot
+-git push
