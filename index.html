@@ -21,7 +21,9 @@
 		<script>
 			$(document).ready(function(){
 				$("#hejBtn").click(function(){
-					$(this).hide();
+					var gustafsText = $("#minInput").val();
+					
+					$("#gustafsBox").html(gustafsText);
 				});
 			});
 		</script>
@@ -30,7 +32,7 @@
 
 	<body>
 		<button id="hejBtn">Hej</button>
-		
+		<input id="minInput" placeholder="Ange något kul"/>
 		<div id="gustafsBox">Haha detta kommer aldrig att ändras</div>
 	</body>
 </html>
