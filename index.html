@@ -16,33 +16,21 @@
 			
 		</style>	
 			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
 		<script>
-			
+			$(document).ready(function(){
+				$("#hejBtn").click(function(){
+					$(this).hide();
+				});
+			});
 		</script>
+		
 	</head>
 
 	<body>
-		<div id="header">Milly</div>
-		<div id="content">Content</div>
-		<div id="footer">Footer</div>
-	
-	<table style="width:100%">
-			<tr>
-				<th>Biltyp</th>
-				<th>Motortyp</th>	
-				<th>Aluminiuoxidant</th>				
-			</tr>
-			
-			<tr> 
-			
-				<td>Fiat Punto</td>
-				<td>Lada Niva</td>
-				<td>VW Jetta</td>
-				<td>kalciumoxid</td>
-			</tr>	
-			
-			</table>
-	
-	
+		<button id="hejBtn">Hej</button>
+		
+		<div id="gustafsBox">Haha detta kommer aldrig att ändras</div>
 	</body>
 </html>
